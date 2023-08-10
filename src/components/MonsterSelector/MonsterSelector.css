@@ -1,0 +1,22 @@
+.MonsterSelector {
+  display: inline-grid;
+  grid-column: 1;
+  grid-row: 4 / 7;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.MonsterSelector div#wrapper {
+  width: 500px;
+  height: 200px;
+  outline: 1px solid blue;
+}
+
+.MonsterSelector h3 {
+  margin: 0;
+  padding:  0 8px 0 8px;
+  width: calc(100% - 16px);
+  font-size: 20px;
+  line-height: 36px;
+}

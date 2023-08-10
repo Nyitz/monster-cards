@@ -1,0 +1,21 @@
+.Details {
+  display: inline-grid;
+  grid-column: 1;
+  grid-row: 8 / 16;
+  width: 500px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Details div#wrapper {
+  height: 450px;
+  outline: 1px solid yellow;
+}
+
+.Details h3 {
+  margin: 0;
+  padding:  0 8px 0 8px;
+  width: calc(100% - 16px);
+  font-size: 20px;
+  line-height: 36px;
+}
