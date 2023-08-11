@@ -1,60 +1,802 @@
 {
-    "range1": [
-      {
-        "name": "Cung-Mok",
-        "level": 9,
-        "rank": 4,
-        "element": "",
-        "spawns": [
-            "Joan",
-            "Pyungmoo",
-            "Yongan"
-        ],
-        "bonuses": [
-          "Strong against Animals"
-        ]
-      },
-      {
-        "name": "Jug-Hyul",
-        "level": 10,
-        "rank": 4,
-        "element": "",
-        "spawns": [
-            "Joan",
-            "Pyungmoo",
-            "Yongan"
-        ],
-        "bonuses": [
-          "Strong against Animals"
-        ]
-      },
-      {
-        "name": "Mu-Rang",
-        "level": 16,
-        "rank": 4,
-        "element": "",
-        "spawns": [
-            "Joan",
-            "Pyungmoo",
-            "Yongan"
-        ],
-        "bonuses": [
-          "Strong against Animals"
-        ]
-      },
-      {
-        "name": "Young-Ji",
-        "level": 21,
-        "rank": 4,
-        "element": "",
-        "spawns": [
-            "Joan",
-            "Pyungmoo",
-            "Yongan"
-        ],
-        "bonuses": [
-          "Strong against Animals"
-        ]
-      }
-    ]
-  }
+  "range1": [
+    {
+      "name": "Cung-Mok",
+      "level": "9",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Jug-Hyul",
+      "level": "10",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Mu-Rang",
+      "level": "16",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Young-Ji",
+      "level": "21",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Mi-Jung",
+      "level": "23",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Li-An",
+      "level": "24",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Se-Rang",
+      "level": "28",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Half Humans",
+        "Magic Resistance"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Lykos",
+      "level": "30",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Rock Ape",
+      "level": "30",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "",
+      "spawns": [
+          "Hasun Dong"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Scrofa",
+      "level": "31",
+      "rank": "2",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Jin-Hee",
+      "level": "31",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Half Humans",
+        "Magic Resistance"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Bera",
+      "level": "33",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Tigris",
+      "level": "35",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Joan",
+          "Pyungmoo",
+          "Yongan"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    }
+  ],
+  "range2": [
+    {
+      "name": "Black Storm Soldier",
+      "level": "31",
+      "rank": "3",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Mahon",
+      "level": "32",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Black Storm Maniac",
+      "level": "33",
+      "rank": "3",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Black Storm Archer",
+      "level": "35",
+      "rank": "3",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans",
+        "Arrow Defence"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Black Storm Joh-Hwan",
+      "level": "36",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Bo",
+      "level": "37",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Black Storm Kyuk-Jang",
+      "level": "38",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Goo-Pae",
+      "level": "39",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Black Storm Pho-Hwan",
+      "level": "40",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Bestial Captain",
+      "level": "42",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Chuong",
+      "level": "45",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Bestial Archer",
+      "level": "40",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang",
+          "Valley of Seungryong"
+      ],
+      "bonuses": [
+        "Strong against Half Humans",
+        "Arrow Defence"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Bestial Specialist",
+      "level": "42",
+      "rank": "4",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Bokjung",
+          "Bakra",
+          "Jayang",
+          "Valley of Seungryong"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Walking Ape",
+      "level": "43",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "",
+      "spawns": [
+          "Jungsun Dong"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Chief Orc",
+      "level": "50",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Valley of Seungryong"
+      ],
+      "bonuses": [
+        "Strong against Orcs"
+      ],
+      "notes": []
+    }
+  ],
+  "range3": [
+    {
+      "name": "Dark Leader",
+      "level": "54",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Hwang Temple"
+      ],
+      "bonuses": [
+        "Strong against Mystics"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Ape Lord",
+      "level": "55",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "",
+      "spawns": [
+          "Sangsun Dong"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Giant Tortoise",
+      "level": "67",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Yongbi Desert"
+      ],
+      "bonuses": [
+        "Strong against Desert Monsters"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Nine Tails",
+      "level": "72",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Ice",
+      "spawns": [
+          "Mount Sohan"
+      ],
+      "bonuses": [],
+      "notes": []
+    },
+    {
+      "name": "Flame King",
+      "level": "72",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Fire",
+      "spawns": [
+          "Fireland"
+      ],
+      "bonuses": [],
+      "notes": []
+    },
+    {
+      "name": "Yellow Tiger Ghost",
+      "level": "75",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Hwang Temple"
+      ],
+      "bonuses": [],
+      "notes": []
+    },
+    {
+      "name": "Demon King",
+      "level": "75",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "Dark",
+      "spawns": [
+          "Demon Tower"
+      ],
+      "bonuses": [
+          "Strong against Undead"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Death Ripper",
+      "level": "78",
+      "rank": "5",
+      "collection": "Dungeon",
+      "element": "Dark",
+      "spawns": [
+          "Demon Tower"
+      ],
+      "bonuses": [
+          "Strong against Undead"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Spider Baroness",
+      "level": "75",
+      "rank": "5",
+      "collection": "Dungeon",
+      "element": "Wind",
+      "spawns": [
+          "Spider Queen's Nest"
+      ],
+      "bonuses": [
+          "Strong against Insects"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Setaou Hunter",
+      "level": "89",
+      "rank": "1",
+      "collection": "Dungeon",
+      "element": "Lightning",
+      "spawns": [
+          "Grotto of Exile",
+          "Grotto of Exile V2"
+      ],
+      "bonuses": [
+          "Strong against Devils",
+          "Arrow Defence"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Giant Ghost Tree",
+      "level": "84",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "Earth",
+      "spawns": [
+          "Red Wood"
+      ],
+      "bonuses": [],
+      "notes": []
+    }
+  ],
+  "range4": [
+    {
+      "name": "Mighty Ice Witch",
+      "level": "89",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "Ice",
+      "spawns": [
+          "Grotto of Exile"
+      ],
+      "bonuses": [
+        "Magic Resistance"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Charon",
+      "level": "91",
+      "rank": "5",
+      "collection": "Dungeon",
+      "element": "Dark",
+      "spawns": [
+          "Devil's Catacomb"
+      ],
+      "bonuses": [
+        "Strong against Undead"
+      ],
+      "notes": []
+    },
+    {
+      "name": "General Yonghan",
+      "level": "95",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "Lightning",
+      "spawns": [
+          "Grotto of Exile V2"
+      ],
+      "bonuses": [
+        "Strong against Devils"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Skeletos",
+      "level": "103",
+      "rank": "BOSS",
+      "collection": "Open World",
+      "element": "",
+      "spawns": [
+          "Gautama Cliff"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "The Great Ogre",
+      "level": "107",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Earth",
+      "spawns": [
+          "Gautama Cliff"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Triton",
+      "level": "105",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Earth",
+      "spawns": [
+          "Nephrite Bay"
+      ],
+      "bonuses": [
+        "Strong against Devils"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Red Chief",
+      "level": "105",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Earth",
+      "spawns": [
+          "Nephrite Bay"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Martyaxwar",
+      "level": "105",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Wind",
+      "spawns": [
+          "Cape Dragon Fire"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "En-Tai Guardian",
+      "level": "105",
+      "rank": "BOSS",
+      "collection": "Dungeon",
+      "element": "",
+      "spawns": [
+          "Temple of the Ochao"
+      ],
+      "bonuses": [
+        "Strong against Devils"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Supreme Gnoll Lord",
+      "level": "105",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Earth",
+      "spawns": [
+          "Cape Dragon Fire"
+      ],
+      "bonuses": [
+        "Strong against Animals"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Polyphemos",
+      "level": "106",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Lightning",
+      "spawns": [
+          "Thunder Mountains"
+      ],
+      "bonuses": [
+        "Strong against Orcs"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Ochao Bodyguard",
+      "level": "108",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Ice",
+      "spawns": [
+          "Temple of the Ochao"
+      ],
+      "bonuses": [
+        "Strong against Devils"
+      ],
+      "notes": []
+    },
+    {
+      "name": "King Wubba",
+      "level": "107",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Ice",
+      "spawns": [
+          "Thunder Mountains"
+      ],
+      "bonuses": [
+        "Strong against Orcs"
+      ],
+      "notes": []
+    },
+    {
+      "name": "Brutal Red Chief",
+      "level": "107",
+      "rank": "5",
+      "collection": "Open World",
+      "element": "Lightning",
+      "spawns": [
+          "Thunder Mountains"
+      ],
+      "bonuses": [
+        "Strong against Half Humans"
+      ],
+      "notes": []
+    }
+  ]
+}

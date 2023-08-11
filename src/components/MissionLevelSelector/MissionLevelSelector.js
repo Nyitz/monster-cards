@@ -15,9 +15,9 @@ function MissionLevelSelector({title, children, missionLevel, setMissionLevel}) 
           <button onClick={updateMissionLevel} value="range2" className={`btn-mission-lvl range2 ${missionLevel === "range2" ? "active" : ""}`}>4&nbsp;5&nbsp;6</button>
           <button onClick={updateMissionLevel} value="range3" className={`btn-mission-lvl range3 ${missionLevel === "range3" ? "active" : ""}`}>7&nbsp;8&nbsp;9</button>
           <button onClick={updateMissionLevel} value="range4" className={`btn-mission-lvl range4 ${missionLevel === "range4" ? "active" : ""}`}>10 11 12</button>
-          <button onClick={updateMissionLevel} value="range5" className={`btn-mission-lvl range5 ${missionLevel === "range5" ? "active" : ""}`}>13 14 15</button>
-          <button onClick={updateMissionLevel} value="range6" className={`btn-mission-lvl range6 ${missionLevel === "range6" ? "active" : ""}`}>16&nbsp;17</button>
-          <button onClick={updateMissionLevel} value="range7" className={`btn-mission-lvl range7 ${missionLevel === "range7" ? "active" : ""}`}>18</button>
+          <button disabled={true} onClick={updateMissionLevel} value="range5" className={`btn-mission-lvl range5 ${missionLevel === "range5" ? "active" : ""}`} title="Soon™">13 14 15</button>
+          <button disabled={true} onClick={updateMissionLevel} value="range6" className={`btn-mission-lvl range6 ${missionLevel === "range6" ? "active" : ""}`} title="Soon™">16&nbsp;17</button>
+          <button disabled={true} onClick={updateMissionLevel} value="range7" className={`btn-mission-lvl range7 ${missionLevel === "range7" ? "active" : ""}`} title="Soon™">18</button>
         </div>
       </div>
     </div>

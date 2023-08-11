@@ -1,0 +1,60 @@
+{
+    "range1": [
+      {
+        "name": "Cung-Mok",
+        "level": 9,
+        "rank": 4,
+        "element": "",
+        "spawns": [
+            "Joan",
+            "Pyungmoo",
+            "Yongan"
+        ],
+        "bonuses": [
+          "Strong against Animals"
+        ]
+      },
+      {
+        "name": "Jug-Hyul",
+        "level": 10,
+        "rank": 4,
+        "element": "",
+        "spawns": [
+            "Joan",
+            "Pyungmoo",
+            "Yongan"
+        ],
+        "bonuses": [
+          "Strong against Animals"
+        ]
+      },
+      {
+        "name": "Mu-Rang",
+        "level": 16,
+        "rank": 4,
+        "element": "",
+        "spawns": [
+            "Joan",
+            "Pyungmoo",
+            "Yongan"
+        ],
+        "bonuses": [
+          "Strong against Animals"
+        ]
+      },
+      {
+        "name": "Young-Ji",
+        "level": 21,
+        "rank": 4,
+        "element": "",
+        "spawns": [
+            "Joan",
+            "Pyungmoo",
+            "Yongan"
+        ],
+        "bonuses": [
+          "Strong against Animals"
+        ]
+      }
+    ]
+  }

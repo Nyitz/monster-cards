@@ -20,3 +20,43 @@
   font-size: 20px;
   line-height: 36px;
 }
+
+.MonsterSelector button.btn-monster {
+  min-width: 48px;
+  height: 24px;
+  line-height: 14px;
+  margin: 0 0 8px 8px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.MonsterSelector button.btn-open-world {
+  background-color: rgba(0, 255, 115, 0.12);
+}
+
+.MonsterSelector button.btn-dungeon {
+  background-color: rgba(255, 0, 128, 0.12);
+}
+
+.MonsterSelector button.btn-monster:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+  transition: 0.15s;
+}
+
+.MonsterSelector button.btn-monster:active {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+  transition: 0s;
+}
+
+.MonsterSelector button.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+  border: 2px solid #dddddd;
+}
