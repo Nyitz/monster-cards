@@ -2,13 +2,13 @@
   display: inline-grid;
   grid-column: 1;
   grid-row: 4 / 7;
-  width: 500px;
+  width: 600px;
   height: 200px;
   background-color: rgba(0, 0, 0, 0);
 }
 
 .MonsterSelector div#wrapper {
-  width: 500px;
+  width: 600px;
   height: 200px;
   outline: 1px solid blue;
 }
