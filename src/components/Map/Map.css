@@ -20,3 +20,21 @@
   font-size: 20px;
   line-height: 36px;
 }
+
+.Map img#map {
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  z-index: 50;
+  width: 576px;
+  height: 720px;
+}
+
+.Map img#spawn {
+  position: absolute;
+  left: 600px;
+  top: 40px;
+  z-index: 100;
+  width: 576px;
+  height: 720px;
+}

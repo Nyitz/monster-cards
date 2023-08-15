@@ -21,6 +21,9 @@ function App() {
   // Currently selected monster
   const [monster, setMonster] = useState('Cung-Mok');
 
+  // Currently selected monster's spawn area
+  const [area, setArea] = useState('Joan');
+
   const getData = async () => {
     await fetch('./data/monsters.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})
     .then(function(response) {
@@ -45,6 +48,11 @@ function App() {
 
   useEffect(() => {
     console.log(`[INFO] Monster set to: ${monster}`);
+    let currentMonster = monsterList.find((d) => d.name === monster);
+    if (currentMonster) {
+      let area = currentMonster.spawns[0];
+      setArea(area);
+    }
   }, [monster]);
 
   useEffect(() => {
@@ -54,6 +62,10 @@ function App() {
   useEffect(() => {
     console.log(`[INFO] Monster List undefined: ${monsterList === undefined}`);
   }, [monsterList]);
+
+  useEffect(() => {
+    console.log(`[INFO] Area set to: ${area}`);
+  }, [area]);
   
   if (isLoading) {
     return <div className="App">Loading...</div>;
@@ -62,9 +74,9 @@ function App() {
     <div className="App">
       <div id="main">
         <MissionLevelSelector missionLevel={missionLevel} setMissionLevel={setMissionLevel}></MissionLevelSelector>
-        <Map></Map>
+        <Map missionLevel={missionLevel} monster={monster} area={area}></Map>
         <MonsterSelector monsterList={monsterList} monster={monster} setMonster={setMonster}></MonsterSelector>
-        <Details monster={monsterList.find((d) => d.name === monster)}></Details>
+        <Details monster={monsterList.find((d) => d.name === monster)} area={area}></Details>
       </div>
     </div>
   );
