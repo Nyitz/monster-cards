@@ -18,6 +18,9 @@ function App() {
   // Data of monsters in current mission range
   const [monsterList, setMonsterList] = useState([]);
 
+  // Data of all monsters in one array
+  const [allMonstersList, setAllMonsterList] = useState([]);
+
   // Currently selected monster
   const [monster, setMonster] = useState('Cung-Mok');
 
@@ -38,6 +41,16 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
+
+  useEffect(() => {
+    let allMobsList = [];
+    for (let i = 1; i <= 7; i++) {
+      if (monsterData[`range${i}`]) {
+        allMobsList = allMobsList.concat(monsterData[`range${i}`]);
+      }
+    }
+    setAllMonsterList(allMobsList);
+  }, [monsterData]);
 
   useEffect(() => {
     console.log(`[INFO] Mission Level set to: ${missionLevel}`);
@@ -64,6 +77,10 @@ function App() {
   }, [monsterList]);
 
   useEffect(() => {
+    console.log(`[INFO] All Monsters List undefined: ${allMonstersList === undefined}`);
+  }, [allMonstersList]);
+
+  useEffect(() => {
     console.log(`[INFO] Area set to: ${area}`);
   }, [area]);
   
@@ -74,9 +91,9 @@ function App() {
     <div className="App">
       <div id="main">
         <MissionLevelSelector missionLevel={missionLevel} setMissionLevel={setMissionLevel}></MissionLevelSelector>
-        <Map missionLevel={missionLevel} monster={monster} area={area}></Map>
+        <Map monster={allMonstersList.find((d) => d.name === monster)} area={area} setArea={setArea}></Map>
         <MonsterSelector monsterList={monsterList} monster={monster} setMonster={setMonster}></MonsterSelector>
-        <Details monster={monsterList.find((d) => d.name === monster)} area={area}></Details>
+        <Details monster={allMonstersList.find((d) => d.name === monster)} area={area}></Details>
       </div>
     </div>
   );

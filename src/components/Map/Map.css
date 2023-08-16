@@ -1,3 +1,9 @@
+:root {
+  --chunjo: #dea02f;
+  --jinno: #181e89;
+  --shinsoo: #9d0000;
+}
+
 .Map {
   display: inline-grid;
   grid-column: 2;
@@ -7,10 +13,9 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.Map wrapper {
-  width: 800px;
+.Map div#wrapper {
+  min-width: 800px;
   height: 100%;
-  outline: 1px solid red;
 }
 
 .Map h3 {
@@ -21,20 +26,81 @@
   line-height: 36px;
 }
 
+.Map div#container-buttons {
+  width: 800px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.Map div#container-images {
+  position: relative;
+  margin-left: 8px;
+}
+
 .Map img#map {
   position: absolute;
-  left: 600px;
-  top: 40px;
+  left: 0px;
+  top: 0px;
   z-index: 50;
-  width: 576px;
-  height: 720px;
 }
 
 .Map img#spawn {
   position: absolute;
-  left: 600px;
-  top: 40px;
+  left: 0px;
+  top: 0px;
   z-index: 100;
-  width: 576px;
-  height: 720px;
+}
+
+.Map img.img-m1 {
+  width: 512px;
+  height: 640px;
+}
+
+.Map img.img-m2 {
+  width: 640px;
+  height: 640px;
+}
+
+.Map img.img-seungryong img.img-yongbi img.img-sohan img.img-hwang img.img-fireland {
+  width: 640px;
+  height: 640px;
+}
+
+.Map button.btn-area {
+  min-width: 110px;
+  height: 36px;
+  margin: 6px 0 6px 12px;
+  padding: 0 6px 0px 6px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #aaaaaa;
+  border-radius: 18px 18px 18px 18px;
+  box-shadow: 0px 0px 4px 2px #aaaaaa;
+}
+
+.Map button.btn-area:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.25s;
+}
+
+.Map button.btn-joan, .Map button.btn-bokjung {
+  border: 2px solid var(--chunjo);
+  box-shadow: 0px 0px 4px 2px var(--chunjo);
+}
+
+.Map button.btn-pyungmoo, .Map button.btn-bakra {
+  border: 2px solid var(--jinno);
+  box-shadow: 0px 0px 4px 2px var(--jinno);
+}
+
+.Map button.btn-yongan, .Map button.btn-jayang {
+  border: 2px solid var(--shinsoo);
+  box-shadow: 0px 0px 4px 2px var(--shinsoo);
 }

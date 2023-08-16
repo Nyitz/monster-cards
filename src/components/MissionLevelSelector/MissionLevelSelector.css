@@ -10,7 +10,6 @@
 .MissionLevelSelector div#wrapper {
   width: 600px;
   height: 100%;
-  outline: 1px solid green;
 }
 
 .MissionLevelSelector h3 {
