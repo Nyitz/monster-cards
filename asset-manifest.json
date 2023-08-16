@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/monster-cards/static/css/main.4776d57a.css",
-    "main.js": "/monster-cards/static/js/main.0f96bef7.js",
+    "main.css": "/monster-cards/static/css/main.d7bd841d.css",
+    "main.js": "/monster-cards/static/js/main.cbaa9c55.js",
     "static/js/787.4a07307c.chunk.js": "/monster-cards/static/js/787.4a07307c.chunk.js",
     "static/media/logo.svg": "/monster-cards/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/monster-cards/index.html",
-    "main.4776d57a.css.map": "/monster-cards/static/css/main.4776d57a.css.map",
-    "main.0f96bef7.js.map": "/monster-cards/static/js/main.0f96bef7.js.map",
+    "main.d7bd841d.css.map": "/monster-cards/static/css/main.d7bd841d.css.map",
+    "main.cbaa9c55.js.map": "/monster-cards/static/js/main.cbaa9c55.js.map",
     "787.4a07307c.chunk.js.map": "/monster-cards/static/js/787.4a07307c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4776d57a.css",
-    "static/js/main.0f96bef7.js"
+    "static/css/main.d7bd841d.css",
+    "static/js/main.cbaa9c55.js"
   ]
 }
