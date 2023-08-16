@@ -23,12 +23,12 @@ function Map({title, children, monster, area, setArea}) {
           <div id="container-images">
             <img id="map" src={`${process.env.PUBLIC_URL}/assets/maps/${area}.png`}
               className={
-                `btn-area ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Temple of Hwang") ? "img-hwang" : ""}`
+                `btn-area ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Hwang Temple") ? "img-hwang" : ""}`
               }
             />
             <img id="spawn" src={`${process.env.PUBLIC_URL}/assets/maps/${monster.name}/${area}/spawn.png`}
               className={
-                `btn-area ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Temple of Hwang") ? "img-hwang" : ""}`
+                `btn-area ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Hwang Temple") ? "img-hwang" : ""}`
               }
             />
           </div>

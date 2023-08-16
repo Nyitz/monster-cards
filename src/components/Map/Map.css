@@ -64,7 +64,7 @@
   height: 640px;
 }
 
-.Map img.img-seungryong img.img-yongbi img.img-sohan img.img-hwang img.img-fireland {
+.Map img.img-seungryong, .Map img.img-yongbi, .Map img.img-sohan, .Map img.img-hwang, .Map img.img-fireland {
   width: 640px;
   height: 640px;
 }
