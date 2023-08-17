@@ -1,3 +1,13 @@
+:root {
+  --fire: #e67300;
+  --ice: #80ffff;
+  --dark: #8000ff;
+  --lightning: #4da6ff;
+  --earth: #ffff00;
+  --wind: #00b300;
+  --element-none: #8c8c8c;
+}
+
 .Details {
   display: inline-grid;
   grid-column: 1;
@@ -120,14 +130,20 @@
   background-color: #222222;
 }
 
-.Details img#element-icon {
+.Details div#container-element-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 98px;
   height: 80px;
   grid-area: 7 / 6 / 9 / 7;
   outline: 2px solid #cccccc;
-  object-fit: scale-down;
   border-radius: 0px 0px 16px 0px;
   background-color: #222222;
+}
+
+.Details img#element-icon {
+  object-fit: scale-down;
 }
 
 .Details div#element-off {
@@ -156,4 +172,32 @@
   line-height: 24px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.Details img.icon-fire {
+  filter: drop-shadow(0px 0px 3px var(--fire));
+}
+
+.Details img.icon-ice {
+  filter: drop-shadow(0px 0px 3px var(--ice));
+}
+
+.Details img.icon-dark {
+  filter: drop-shadow(0px 0px 3px var(--dark));
+}
+
+.Details img.icon-lightning {
+  filter: drop-shadow(0px 0px 3px var(--lightning));
+}
+
+.Details img.icon-earth {
+  filter: drop-shadow(0px 0px 3px var(--earth));
+}
+
+.Details img.icon-wind {
+  filter: drop-shadow(0px 0px 3px var(--wind));
+}
+
+.Details img.icon-element-none {
+  filter: drop-shadow(0px 0px 3px var(--element-none));
 }

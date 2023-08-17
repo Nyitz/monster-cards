@@ -104,3 +104,15 @@
   border: 2px solid var(--shinsoo);
   box-shadow: 0px 0px 4px 2px var(--shinsoo);
 }
+
+.Map img.img-map {
+  min-width: 320px;
+  min-height: 320px;
+  max-width: 1200px;
+  max-height: 640px;
+}
+
+.Map img#map {
+  background: url("../../images/image-unavailable.png") no-repeat scroll 0 0;
+  background-size: 320px;
+}

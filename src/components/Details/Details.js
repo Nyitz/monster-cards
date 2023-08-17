@@ -32,11 +32,13 @@ function Details({title, children, monster}) {
               ))}
             </div>
             
-            {(monster.element !== "")?
-              <img id="element-icon" title={`Element of ${monster.element}`} src={`${process.env.PUBLIC_URL}/assets/element-icons/${monster.element}.png`} alt="Element Icon" className={`${monster.element !== "" ? `icon-${monster.element.toString().toLowerCase()}` : 'icon-element-none'}`}/>
-            :
-              <img id="element-icon" title="No element" src={`${process.env.PUBLIC_URL}/assets/element-icons/None.png`} alt="Element Icon" className={`${monster.element !== "" ? `icon-${monster.element.toString().toLowerCase()}` : 'icon-element-none'}`}/>
-            }
+            <div id="container-element-icon">
+              {(monster.element !== "")?
+                <img id="element-icon" title={`Element of ${monster.element}`} src={`${process.env.PUBLIC_URL}/assets/element-icons/${monster.element}.png`} alt="Element Icon" className={`${monster.element !== "" ? `icon-${monster.element.toString().toLowerCase()}` : 'icon-element-none'}`}/>
+              :
+                <img id="element-icon" title="No element" src={`${process.env.PUBLIC_URL}/assets/element-icons/None.png`} alt="Element Icon" className={`${monster.element !== "" ? `icon-${monster.element.toString().toLowerCase()}` : 'icon-element-none'}`}/>
+              }
+            </div>
             {(monster.element !== "")?
               <div id="element-off"> Power of {monster.element} </div>
             :
