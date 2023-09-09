@@ -60,13 +60,13 @@
 }
 
 .MonsterSelector button.btn-open-world.active {
-  background-color: rgba(0, 128, 128, 0.3);
+  background-color: rgba(0, 128, 128, 0.4);
   box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
   border: 1px solid #dddddd;
 }
 
 .MonsterSelector button.btn-dungeon.active {
-  background-color: rgba(229, 128, 255, 0.3);
+  background-color: rgba(229, 128, 255, 0.4);
   box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
   border: 1px solid #dddddd;
 }

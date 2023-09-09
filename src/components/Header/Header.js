@@ -7,9 +7,11 @@ import flagGB from "../../images/gb.svg";
 
 function Header({title, children, setLanguage, setDefaultKingdom}) {
   const updateLanguage = e => {
+    localStorage.setItem('language', JSON.stringify(e.target.value));
     setLanguage(e.target.value);
   };
   const updateDefaultKingdom = e => {
+    localStorage.setItem('defaultKingdom', JSON.stringify(e.target.value));
     setDefaultKingdom(e.target.value);
   };
 

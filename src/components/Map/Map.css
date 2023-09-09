@@ -2,6 +2,9 @@
   --chunjo: #dea02f;
   --jinno: #181e89;
   --shinsoo: #9d0000;
+  --btn-chunjo: #dea02f;
+  --btn-jinno: #1f27c2;
+  --btn-shinsoo: #d32626;
 }
 
 .Map {
@@ -45,6 +48,8 @@
   left: 0px;
   top: 0px;
   z-index: 50;
+  border: 2px solid #cccccc;
+  border-radius: 16px;
 }
 
 .Map img#spawn {
@@ -59,7 +64,7 @@
   height: 640px;
 }
 
-.Map img.img-bokjung, .Map img.img-bakra, .Map img.img-jayang {
+.Map img.img-bokjung, .Map img.img-bakra, .Map img.img-yayang {
   width: 640px;
   height: 640px;
 }
@@ -90,19 +95,33 @@
   transition: 0.25s;
 }
 
+.Map button.btn-area:active {
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0s;
+}
+
+.Map button.btn-area.active {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.Map button.btn-area.active:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.25s;
+}
+
 .Map button.btn-joan, .Map button.btn-bokjung {
-  border: 2px solid var(--chunjo);
-  box-shadow: 0px 0px 3px 1px var(--chunjo);
+  border: 2px solid var(--btn-chunjo);
+  box-shadow: 0px 0px 3px 1px var(--btn-chunjo);
 }
 
 .Map button.btn-pyungmoo, .Map button.btn-bakra {
-  border: 2px solid var(--jinno);
-  box-shadow: 0px 0px 3px 1px var(--jinno);
+  border: 2px solid var(--btn-jinno);
+  box-shadow: 0px 0px 3px 1px var(--btn-jinno);
 }
 
-.Map button.btn-yongan, .Map button.btn-jayang {
-  border: 2px solid var(--shinsoo);
-  box-shadow: 0px 0px 3px 1px var(--shinsoo);
+.Map button.btn-yongan, .Map button.btn-yayang {
+  border: 2px solid var(--btn-shinsoo);
+  box-shadow: 0px 0px 3px 1px var(--btn-shinsoo);
 }
 
 .Map img.img-map {

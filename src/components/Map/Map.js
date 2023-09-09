@@ -16,7 +16,7 @@ function Map({title, children, monster, area, setArea}) {
         <div id="container-map">
           <div id="container-buttons">
           {monster.spawns?.map((item, index) => (
-            <button onClick={updateArea} key={item} value={item} className={`btn-area btn-${item.toString().toLowerCase().replace(/\s+/g, '-')}`}>{item}</button>
+            <button onClick={updateArea} key={item} value={item} className={`btn-area btn-${item.toString().toLowerCase().replace(/\s+/g, '-')}  ${item === area ? "active" : ""}`}>{item}</button>
           ))}
           </div>
           

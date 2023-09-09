@@ -28,11 +28,11 @@ function App() {
   // Currently selected monster's spawn area
   const [area, setArea] = useState('Joan');
 
-  // Currently selected monster's spawn area
-  const [defaultKingdom, setDefaultKingdom] = useState('Chunjo');
+  // Default Kingdom used for M1/M2 mobs
+  const [defaultKingdom, setDefaultKingdom] = useState();
 
-  // Currently selected monster's spawn area
-  const [language, setLanguage] = useState('English');
+  // Language
+  const [language, setLanguage] = useState('en');
 
   const getData = async () => {
     await fetch('./data/monsters.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})
@@ -40,6 +40,12 @@ function App() {
       return response.json();
     })
     .then(function(jsonData) {
+      if (localStorage.getItem('language') !== null) {
+        setLanguage(JSON.parse(localStorage.getItem('language')));
+      }
+      if (localStorage.getItem('defaultKingdom') !== null) {
+        setDefaultKingdom(JSON.parse(localStorage.getItem('defaultKingdom')));
+      }
       setMonsterData(jsonData);
       setLoading(false);
     });
@@ -71,9 +77,23 @@ function App() {
     let currentMonster = monsterList.find((d) => d.name === monster);
     if (currentMonster) {
       let area = currentMonster.spawns[0];
+      if (missionLevel === 'range1' && currentMonster.collection !== 'Dungeon') {
+        switch (defaultKingdom) {
+          case 'Chunjo': area = 'Joan'; break;
+          case 'Jinno': area = 'Pyungmoo'; break;
+          case 'Shinsoo': area = 'Yongan'; break;
+        }
+      }
+      if (missionLevel === 'range2' && currentMonster.collection !== 'Dungeon' && currentMonster.name !== 'Chief Orc') {
+        switch (defaultKingdom) {
+          case 'Chunjo': area = 'Bokjung'; break;
+          case 'Jinno': area = 'Bakra'; break;
+          case 'Shinsoo': area = 'Yayang'; break;
+        }
+      }
       setArea(area);
     }
-  }, [monster]);
+  }, [monster, defaultKingdom]);
 
   useEffect(() => {
     console.log(`[INFO] isLoading: ${isLoading}`);
@@ -97,6 +117,20 @@ function App() {
 
   useEffect(() => {
     console.log(`[INFO] Default Kingdom set to: ${defaultKingdom}`);
+    if (missionLevel === 'range1' && monster.collection !== 'Dungeon') {
+      switch (defaultKingdom) {
+        case 'Chunjo': setArea('Joan'); break;
+        case 'Jinno': setArea('Pyungmoo'); break;
+        case 'Shinsoo': setArea('Yongan'); break;
+      }
+    }
+    if (missionLevel === 'range2' && monster.collection !== 'Dungeon' && monster.name !== 'Chief Orc') {
+      switch (defaultKingdom) {
+        case 'Chunjo': setArea('Bokjung'); break;
+        case 'Jinno': setArea('Bakra'); break;
+        case 'Shinsoo': setArea('Yayang'); break;
+      }
+    }
   }, [defaultKingdom]);
   
   if (isLoading) {
