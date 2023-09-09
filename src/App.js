@@ -3,6 +3,7 @@ import MissionLevelSelector from './components/MissionLevelSelector/MissionLevel
 import MonsterSelector from './components/MonsterSelector/MonsterSelector';
 import Details from './components/Details/Details';
 import Map from './components/Map/Map';
+import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 
 function App() {
@@ -26,6 +27,12 @@ function App() {
 
   // Currently selected monster's spawn area
   const [area, setArea] = useState('Joan');
+
+  // Currently selected monster's spawn area
+  const [defaultKingdom, setDefaultKingdom] = useState('Chunjo');
+
+  // Currently selected monster's spawn area
+  const [language, setLanguage] = useState('English');
 
   const getData = async () => {
     await fetch('./data/monsters.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})
@@ -83,17 +90,28 @@ function App() {
   useEffect(() => {
     console.log(`[INFO] Area set to: ${area}`);
   }, [area]);
+
+  useEffect(() => {
+    console.log(`[INFO] Language set to: ${language}`);
+  }, [language]);
+
+  useEffect(() => {
+    console.log(`[INFO] Default Kingdom set to: ${defaultKingdom}`);
+  }, [defaultKingdom]);
   
   if (isLoading) {
     return <div className="App">Loading...</div>;
   }
   return (
     <div className="App">
+      <div id="wrapper">
+      <Header setLanguage={setLanguage} setDefaultKingdom={setDefaultKingdom}></Header>
       <div id="main">
         <MissionLevelSelector missionLevel={missionLevel} setMissionLevel={setMissionLevel}></MissionLevelSelector>
         <Map monster={allMonstersList.find((d) => d.name === monster)} area={area} setArea={setArea}></Map>
         <MonsterSelector monsterList={monsterList} monster={monster} setMonster={setMonster}></MonsterSelector>
         <Details monster={allMonstersList.find((d) => d.name === monster)} area={area}></Details>
+      </div>
       </div>
     </div>
   );

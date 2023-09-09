@@ -21,16 +21,8 @@ function Map({title, children, monster, area, setArea}) {
           </div>
           
           <div id="container-images">
-            <img id="map" src={`${process.env.PUBLIC_URL}/assets/maps/${area}.png`}
-              className={
-                `img-map img-${area.toString().toLowerCase().replace(/\s+/g, '-')} ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Hwang Temple") ? "img-hwang" : ""}`
-              }
-            />
-            <img id="spawn" src={`${process.env.PUBLIC_URL}/assets/maps/${monster.name}/${area}/spawn.png`}
-              className={
-                `img-map img-${area.toString().toLowerCase().replace(/\s+/g, '-')} ${(area === "Joan" || area === "Pyungmoo" || area === "Yongan") ? "img-m1" : ""} ${(area === "Bokjung" || area === "Bakra" || area === "Jayang") ? "img-m2" : ""} ${(area === "Valley of Seongryong") ? "img-m2" : ""} ${(area === "Yongbi Desert") ? "img-yongbi" : ""} ${(area === "Mount Sohan") ? "img-sohan" : ""} ${(area === "Fireland") ? "img-fireland" : ""} ${(area === "Hwang Temple") ? "img-hwang" : ""}`
-              }
-            />
+            <img id="map" src={`${process.env.PUBLIC_URL}/assets/maps/${area}.png`} className={`img-map img-${area.toString().toLowerCase().replace(/\s+/g, '-')}`}/>
+            <img id="spawn" src={`${process.env.PUBLIC_URL}/assets/maps/${monster.name}/${area}/spawn.png`} className={`img-map img-${area.toString().toLowerCase().replace(/\s+/g, '-')}`}/>
           </div>
         </div>
       </div>

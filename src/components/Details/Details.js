@@ -17,7 +17,7 @@ function Details({title, children, monster}) {
             <div id="class-value"> {monster.rank} </div>
             <img src={`${process.env.PUBLIC_URL}/assets/card-images/${monster.name}.png`} id='card-image'/>
             <div id="container-monster-image">
-              <img src={`${process.env.PUBLIC_URL}/assets/monster-images/${monster.name}.png`} id='monster-image'/>
+              <img src={`${process.env.PUBLIC_URL}/assets/monster-images/${monster.name}.png`} id='monster-image' className={`${monster.element !== "" ? `monster-image-${monster.element.toString().toLowerCase()}` : 'monster-image-element-none'}`}/>
             </div>
             <div id="spawns-list">
               <div id="spawns-caption">Spawns</div>

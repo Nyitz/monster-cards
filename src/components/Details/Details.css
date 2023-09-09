@@ -6,6 +6,13 @@
   --earth: #ffff00;
   --wind: #00b300;
   --element-none: #8c8c8c;
+  --img-fire: #d17416;
+  --img-ice: #a9fdfd;
+  --img-dark: #713ba3;
+  --img-lightning: #317ac4;
+  --img-earth: #b1b157;
+  --img-wind: #60a860;
+  --img-element-none: #8c8c8c;
 }
 
 .Details {
@@ -112,7 +119,34 @@
   padding: 8px;
   grid-area: 4 / 1 / 9 / 4;
   object-fit: contain;
-  filter: drop-shadow(0px 0px 4px #cccccc);
+}
+
+.Details img.monster-image-wind {
+  filter: drop-shadow(0px 0px 2px var(--img-wind));
+}
+
+.Details img.monster-image-dark {
+  filter: drop-shadow(0px 0px 2px var(--img-dark));
+}
+
+.Details img.monster-image-ice {
+  filter: drop-shadow(0px 0px 2px var(--img-ice));
+}
+
+.Details img.monster-image-fire {
+  filter: drop-shadow(0px 0px 2px var(--img-fire));
+}
+
+.Details img.monster-image-earth {
+  filter: drop-shadow(0px 0px 2px var(--img-earth));
+}
+
+.Details img.monster-image-lightning {
+  filter: drop-shadow(0px 0px 2px var(--img-lightning));
+}
+
+.Details img.monster-image-element-none {
+  filter: drop-shadow(0px 0px 2px var(--img-element-none));
 }
 
 .Details div#spawns-list {

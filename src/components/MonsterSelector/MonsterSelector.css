@@ -35,27 +35,38 @@
 }
 
 .MonsterSelector button.btn-open-world {
-  background-color: rgba(0, 255, 115, 0.12);
+  background-color: rgba(0, 128, 128, 0.12);
 }
 
 .MonsterSelector button.btn-dungeon {
-  background-color: rgba(255, 0, 128, 0.12);
+  background-color: rgba(229, 128, 255, 0.12);
 }
 
-.MonsterSelector button.btn-monster:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+.MonsterSelector button.btn-open-world:hover {
+  background-color: rgba(0, 128, 128, 0.3);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+  transition: 0.15s;
+}
+
+.MonsterSelector button.btn-dungeon:hover {
+  background-color: rgba(229, 128, 255, 0.3);
   box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
   transition: 0.15s;
 }
 
 .MonsterSelector button.btn-monster:active {
-  background-color: rgba(255, 255, 255, 0.05);
+  filter: contrast(25%);
   box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
-  transition: 0s;
 }
 
-.MonsterSelector button.active {
-  background-color: rgba(255, 255, 255, 0.2);
+.MonsterSelector button.btn-open-world.active {
+  background-color: rgba(0, 128, 128, 0.3);
   box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
-  border: 2px solid #dddddd;
+  border: 1px solid #dddddd;
+}
+
+.MonsterSelector button.btn-dungeon.active {
+  background-color: rgba(229, 128, 255, 0.3);
+  box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.5);
+  border: 1px solid #dddddd;
 }
