@@ -1,7 +1,9 @@
 import './MissionLevelSelector.css';
-import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function MissionLevelSelector({title, children, missionLevel, setMissionLevel}) {
+  const { t, i18n } = useTranslation();
+
   const updateMissionLevel = e => {
     setMissionLevel(e.target.value);
   };
@@ -9,7 +11,7 @@ function MissionLevelSelector({title, children, missionLevel, setMissionLevel}) 
   return (
     <div className="MissionLevelSelector">
       <div id="wrapper">
-        <h3>Mission level</h3>
+        <h3>{t('missionLevel')}</h3>
         <div id="button-wrapper">
           <button onClick={updateMissionLevel} value="range1" className={`btn-mission-lvl range1 ${missionLevel === "range1" ? "active" : ""}`}>1&nbsp;2&nbsp;3</button>
           <button onClick={updateMissionLevel} value="range2" className={`btn-mission-lvl range2 ${missionLevel === "range2" ? "active" : ""}`}>4&nbsp;5&nbsp;6</button>

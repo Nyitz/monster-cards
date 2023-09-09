@@ -5,8 +5,11 @@ import Details from './components/Details/Details';
 import Map from './components/Map/Map';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t, i18n } = useTranslation();
+  
   // Is data loading during the initial rendering
   const [isLoading, setLoading] = useState(true);
 
@@ -113,6 +116,7 @@ function App() {
 
   useEffect(() => {
     console.log(`[INFO] Language set to: ${language}`);
+    i18n.changeLanguage(language);
   }, [language]);
 
   useEffect(() => {
