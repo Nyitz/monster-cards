@@ -76,7 +76,8 @@
           "Yongan"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -109,6 +110,7 @@
       ],
       "bonuses": [
         "Strong against Half Humans",
+        "Resistance to Half Humans",
         "Magic Resistance"
       ],
       "notes": []
@@ -172,6 +174,7 @@
       ],
       "bonuses": [
         "Strong against Half Humans",
+        "Resistance to Half Humans",
         "Magic Resistance"
       ],
       "notes": []
@@ -219,10 +222,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -235,10 +239,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -251,10 +256,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -267,10 +273,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
         "Strong against Half Humans",
+        "Resistance to Half Humans",
         "Arrow Defence"
       ],
       "notes": []
@@ -284,10 +291,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -300,10 +308,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -316,10 +325,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -332,10 +342,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -348,10 +359,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -364,10 +376,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -380,10 +393,11 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang"
+          "Yayang"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -396,11 +410,12 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang",
+          "Yayang",
           "Valley of Seungryong"
       ],
       "bonuses": [
         "Strong against Half Humans",
+        "Resistance to Half Humans",
         "Arrow Defence"
       ],
       "notes": []
@@ -414,11 +429,12 @@
       "spawns": [
           "Bokjung",
           "Bakra",
-          "Jayang",
+          "Yayang",
           "Valley of Seungryong"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -654,7 +670,8 @@
           "Gautama Cliff"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -696,7 +713,8 @@
           "Nephrite Bay"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     },
@@ -794,7 +812,8 @@
           "Thunder Mountains"
       ],
       "bonuses": [
-        "Strong against Half Humans"
+        "Strong against Half Humans",
+        "Resistance to Half Humans"
       ],
       "notes": []
     }
