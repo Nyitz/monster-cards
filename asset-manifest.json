@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/monster-cards/static/css/main.21df1a4e.css",
-    "main.js": "/monster-cards/static/js/main.c736aa65.js",
+    "main.css": "/monster-cards/static/css/main.b5714177.css",
+    "main.js": "/monster-cards/static/js/main.f5cc51a4.js",
     "static/js/787.4a07307c.chunk.js": "/monster-cards/static/js/787.4a07307c.chunk.js",
     "static/media/Jinno.png": "/monster-cards/static/media/Jinno.ab8e1807b4354239c0f6.png",
     "static/media/Shinsoo.png": "/monster-cards/static/media/Shinsoo.d39c4286fd86d77f3c8e.png",
     "static/media/Chunjo.png": "/monster-cards/static/media/Chunjo.3d667099cea6f8645a06.png",
     "static/media/image-unavailable.png": "/monster-cards/static/media/image-unavailable.b0cd3648cc18ce9f9d51.png",
-    "static/media/logo.svg": "/monster-cards/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/monster-cards/index.html",
     "static/media/gb.svg": "/monster-cards/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
     "static/media/pl.svg": "/monster-cards/static/media/pl.2b5541c54505328dbc1b264a72369d23.svg",
-    "main.21df1a4e.css.map": "/monster-cards/static/css/main.21df1a4e.css.map",
-    "main.c736aa65.js.map": "/monster-cards/static/js/main.c736aa65.js.map",
+    "main.b5714177.css.map": "/monster-cards/static/css/main.b5714177.css.map",
+    "main.f5cc51a4.js.map": "/monster-cards/static/js/main.f5cc51a4.js.map",
     "787.4a07307c.chunk.js.map": "/monster-cards/static/js/787.4a07307c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21df1a4e.css",
-    "static/js/main.c736aa65.js"
+    "static/css/main.b5714177.css",
+    "static/js/main.f5cc51a4.js"
   ]
 }
