@@ -143,13 +143,16 @@ function App() {
   return (
     <div className="App">
       <div id="wrapper">
-      <Header setLanguage={setLanguage} setDefaultKingdom={setDefaultKingdom}></Header>
-      <div id="main">
-        <MissionLevelSelector missionLevel={missionLevel} setMissionLevel={setMissionLevel}></MissionLevelSelector>
-        <Map monster={allMonstersList.find((d) => d.name === monster)} area={area} setArea={setArea}></Map>
-        <MonsterSelector monsterList={monsterList} monster={monster} setMonster={setMonster}></MonsterSelector>
-        <Details monster={allMonstersList.find((d) => d.name === monster)} area={area}></Details>
+        <Header setLanguage={setLanguage} setDefaultKingdom={setDefaultKingdom}></Header>
+        <div id="main">
+          <MissionLevelSelector missionLevel={missionLevel} setMissionLevel={setMissionLevel}></MissionLevelSelector>
+          <Map monster={allMonstersList.find((d) => d.name === monster)} area={area} setArea={setArea}></Map>
+          <MonsterSelector monsterList={monsterList} monster={monster} setMonster={setMonster}></MonsterSelector>
+          <Details monster={allMonstersList.find((d) => d.name === monster)} area={area}></Details>
+        </div>
       </div>
+      <div className='footer'>
+        v1.0 &copy; Nyitz {new Date().getFullYear()}
       </div>
     </div>
   );
