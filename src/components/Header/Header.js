@@ -23,12 +23,12 @@ function Header({title, children, setLanguage, setDefaultKingdom}) {
     <div className='Header'>
       <div id='wrapper'>
         <div id='container-language'>
-          <p className="caption"> Language </p>
+          <p className="caption"> {t('language')} </p>
           <button onClick={updateLanguage} value="pl" className='btn-language' id='btn-language-pl' style={{backgroundImage: `url(${flagPL})`}}></button>
           <button onClick={updateLanguage} value="en" className='btn-language' id='btn-language-eng' style={{backgroundImage: `url(${flagGB})`}}></button>
         </div>
         <div id='container-kingdom'>
-          <p className="caption"> Default Kingdom </p>
+          <p className="caption"> {t('default-kingdom')} </p>
           <button onClick={updateDefaultKingdom} value="Chunjo" className='btn-kingdom' id='btn-kingdom-chunjo' style={{backgroundImage: `url(${flagChunjo})`}}></button>
           <button onClick={updateDefaultKingdom} value="Jinno" className='btn-kingdom' id='btn-kingdom-jinno' style={{backgroundImage: `url(${flagJinno})`}}></button>
           <button onClick={updateDefaultKingdom} value="Shinsoo" className='btn-kingdom' id='btn-kingdom-shinsoo' style={{backgroundImage: `url(${flagShinsoo})`}}></button>

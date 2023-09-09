@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 
 function App() {
   const { t, i18n } = useTranslation();
-  
+
   // Is data loading during the initial rendering
   const [isLoading, setLoading] = useState(true);
 
@@ -32,10 +32,10 @@ function App() {
   const [area, setArea] = useState('Joan');
 
   // Default Kingdom used for M1/M2 mobs
-  const [defaultKingdom, setDefaultKingdom] = useState();
+  const [defaultKingdom, setDefaultKingdom] = useState('Chunjo');
 
   // Language
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('pl');
 
   const getData = async () => {
     await fetch('./data/monsters.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})

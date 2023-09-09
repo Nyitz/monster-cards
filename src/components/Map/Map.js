@@ -1,7 +1,9 @@
-import logo from '../../logo.svg';
 import './Map.css';
+import { useTranslation } from "react-i18next";
 
 function Map({title, children, monster, area, setArea}) {
+  const { t, i18n } = useTranslation();
+
   const updateArea = e => {
     setArea(e.target.value);
   };
@@ -12,11 +14,11 @@ function Map({title, children, monster, area, setArea}) {
   return (
     <div className="Map">
       <div id="wrapper">
-        <h3>Map</h3>
+        <h3>{t('map')}</h3>
         <div id="container-map">
           <div id="container-buttons">
           {monster.spawns?.map((item, index) => (
-            <button onClick={updateArea} key={item} value={item} className={`btn-area btn-${item.toString().toLowerCase().replace(/\s+/g, '-')}  ${item === area ? "active" : ""}`}>{item}</button>
+            <button onClick={updateArea} key={item} value={item} className={`btn-area btn-${item.toString().toLowerCase().replace(/\s+/g, '-')}  ${item === area ? "active" : ""}`}>{t(item.toString().toLowerCase().replace(/\s+/g, '-'))}</button>
           ))}
           </div>
           
