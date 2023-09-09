@@ -13,6 +13,7 @@
   --img-earth: #b1b157;
   --img-wind: #60a860;
   --img-element-none: #8c8c8c;
+  --border-color: #999999;
 }
 
 .Details {
@@ -60,7 +61,7 @@
   text-align: center;
   line-height: 40px;
   font-weight: 700;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   border-radius: 16px 0px 0px 0px;
   background-color: #222222;
 }
@@ -69,7 +70,7 @@
   grid-area: 2 / 1 / 3 / 2;
   text-align: center;
   line-height: 40px;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -77,7 +78,7 @@
   grid-area: 2 / 2 / 3 / 3;
   text-align: center;
   line-height: 40px;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -85,7 +86,7 @@
   grid-area: 3 / 1 / 4 / 2;
   text-align: center;
   line-height: 40px;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -93,7 +94,7 @@
   grid-area: 3 / 2 / 4 / 3;
   text-align: center;
   line-height: 40px;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -102,13 +103,13 @@
   height: 120px;
   grid-area: 1 / 3 / 4 / 4;
   object-fit: contain;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
 .Details div#container-monster-image {
   grid-area: 4 / 1 / 9 / 4;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   border-radius: 0px 0px 0px 16px;
   background-color: #222222;
 }
@@ -152,7 +153,7 @@
 .Details div#spawns-list {
   padding: 4px 0px 0px 8px;
   grid-area: 1 / 4 / 4 / 7;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   border-radius: 0px 16px 0px 0px;
   background-color: #222222;
 }
@@ -160,7 +161,7 @@
 .Details div#bonuses-list {
   padding: 4px 0px 0px 8px;
   grid-area: 4 / 4 / 7 / 7;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -171,7 +172,7 @@
   width: 98px;
   height: 80px;
   grid-area: 7 / 6 / 9 / 7;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   border-radius: 0px 0px 16px 0px;
   background-color: #222222;
 }
@@ -184,7 +185,7 @@
   line-height: 40px;
   text-align: center;
   grid-area: 7 / 4 / 8 / 6;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
@@ -192,7 +193,7 @@
   line-height: 40px;
   text-align: center;
   grid-area: 8 / 4 / 9 / 6;
-  outline: 2px solid #cccccc;
+  outline: 2px solid var(--border-color);
   background-color: #222222;
 }
 
