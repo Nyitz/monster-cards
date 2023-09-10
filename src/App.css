@@ -28,7 +28,7 @@ html, body, #root, #root>div {
 
 .App div.footer {
   position: fixed;
-  padding: 0 8px 0 8px;
+  padding: 0 4px 0 4px;
   bottom: 0;
   height: 20px;
   background-color: #333;
