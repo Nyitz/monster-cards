@@ -4,6 +4,7 @@ import { initReactI18next } from "react-i18next";
 // Importing translation files
 import translationEN from "./locales/en/translation.json";
 import translationPL from "./locales/pl/translation.json";
+import translationTR from "./locales/tr/translation.json";
 
 //Creating object with the variables of imported translation files
 const resources = {
@@ -12,6 +13,9 @@ const resources = {
   },
   pl: {
     translation: translationPL,
+  },
+  tr: {
+    translation: translationTR,
   },
 };
 

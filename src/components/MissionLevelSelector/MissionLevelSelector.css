@@ -43,6 +43,8 @@
   border: 2px solid #aaaaaa;
   border-radius: 18px 18px 18px 18px;
   box-shadow: 1px 0px 3px 1px rgba(211, 255, 242, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .MissionLevelSelector button.btn-mission-lvl:hover {

@@ -152,7 +152,7 @@ function App() {
         </div>
       </div>
       <div className='footer'>
-        v1.0 &copy; Nyitz {new Date().getFullYear()}
+        &copy; Nyitz {new Date().getFullYear()}
       </div>
     </div>
   );

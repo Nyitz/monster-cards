@@ -5,6 +5,7 @@ import flagJinno from "../../images/Jinno.png";
 import flagShinsoo from "../../images/Shinsoo.png";
 import flagPL from "../../images/pl.svg";
 import flagGB from "../../images/gb.svg";
+import flagTR from "../../images/tr.svg";
 
 function Header({title, children, setLanguage, setDefaultKingdom}) {
   const { t, i18n } = useTranslation();
@@ -25,7 +26,8 @@ function Header({title, children, setLanguage, setDefaultKingdom}) {
         <div id='container-language'>
           <p className="caption"> {t('language')} </p>
           <button onClick={updateLanguage} value="pl" className='btn-language' id='btn-language-pl' style={{backgroundImage: `url(${flagPL})`}}></button>
-          <button onClick={updateLanguage} value="en" className='btn-language' id='btn-language-eng' style={{backgroundImage: `url(${flagGB})`}}></button>
+          <button onClick={updateLanguage} value="en" className='btn-language' id='btn-language-en' style={{backgroundImage: `url(${flagGB})`}}></button>
+          <button onClick={updateLanguage} value="tr" className='btn-language' id='btn-language-tr' style={{backgroundImage: `url(${flagTR})`}}></button>
         </div>
         <div id='container-kingdom'>
           <p className="caption"> {t('default-kingdom')} </p>

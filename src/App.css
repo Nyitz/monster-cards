@@ -28,12 +28,12 @@ html, body, #root, #root>div {
 
 .App div.footer {
   position: fixed;
+  padding: 0 8px 0 8px;
   bottom: 0;
-  width: 140px;
   height: 20px;
   background-color: #333;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   color: #bbb;
   outline: 1px solid #555;
