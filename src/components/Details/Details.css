@@ -14,6 +14,7 @@
   --img-wind: #60a860;
   --img-element-none: #8c8c8c;
   --border-color: #999999;
+  --details-bg-color: #292929;
 }
 
 .Details {
@@ -63,7 +64,7 @@
   font-weight: 700;
   outline: 2px solid var(--border-color);
   border-radius: 16px 0px 0px 0px;
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#level-key {
@@ -71,7 +72,7 @@
   text-align: center;
   line-height: 40px;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#class-key {
@@ -79,7 +80,7 @@
   text-align: center;
   line-height: 40px;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#level-value {
@@ -87,7 +88,7 @@
   text-align: center;
   line-height: 40px;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#class-value {
@@ -95,7 +96,7 @@
   text-align: center;
   line-height: 40px;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details img#card-image {
@@ -104,14 +105,14 @@
   grid-area: 1 / 3 / 4 / 4;
   object-fit: contain;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#container-monster-image {
   grid-area: 4 / 1 / 9 / 4;
   outline: 2px solid var(--border-color);
   border-radius: 0px 0px 0px 16px;
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details img#monster-image {
@@ -155,14 +156,14 @@
   grid-area: 1 / 4 / 4 / 7;
   outline: 2px solid var(--border-color);
   border-radius: 0px 16px 0px 0px;
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#bonuses-list {
   padding: 4px 0px 0px 8px;
   grid-area: 4 / 4 / 7 / 7;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details div#container-element-icon {
@@ -174,7 +175,7 @@
   grid-area: 7 / 6 / 9 / 7;
   outline: 2px solid var(--border-color);
   border-radius: 0px 0px 16px 0px;
-  background-color: #222222;
+  background-color: var(--details-bg-color);
 }
 
 .Details img#element-icon {
@@ -186,7 +187,7 @@
   text-align: center;
   grid-area: 7 / 4 / 8 / 6;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
   white-space: nowrap;
   overflow: hidden;
 }
@@ -196,7 +197,7 @@
   text-align: center;
   grid-area: 8 / 4 / 9 / 6;
   outline: 2px solid var(--border-color);
-  background-color: #222222;
+  background-color: var(--details-bg-color);
   white-space: nowrap;
   overflow: hidden;
 }

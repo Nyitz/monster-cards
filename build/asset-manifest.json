@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/monster-cards/static/css/main.091c65d0.css",
-    "main.js": "/monster-cards/static/js/main.c5e70ea9.js",
+    "main.css": "/monster-cards/static/css/main.12a72a32.css",
+    "main.js": "/monster-cards/static/js/main.707b0459.js",
     "static/js/787.4a07307c.chunk.js": "/monster-cards/static/js/787.4a07307c.chunk.js",
     "static/media/Jinno.png": "/monster-cards/static/media/Jinno.ab8e1807b4354239c0f6.png",
     "static/media/Shinsoo.png": "/monster-cards/static/media/Shinsoo.d39c4286fd86d77f3c8e.png",
@@ -11,12 +11,12 @@
     "static/media/tr.svg": "/monster-cards/static/media/tr.a1a28a5eb8eceaad90b38395a1000ff3.svg",
     "static/media/gb.svg": "/monster-cards/static/media/gb.516897fd3988e35032b772b026a19f75.svg",
     "static/media/pl.svg": "/monster-cards/static/media/pl.2b5541c54505328dbc1b264a72369d23.svg",
-    "main.091c65d0.css.map": "/monster-cards/static/css/main.091c65d0.css.map",
-    "main.c5e70ea9.js.map": "/monster-cards/static/js/main.c5e70ea9.js.map",
+    "main.12a72a32.css.map": "/monster-cards/static/css/main.12a72a32.css.map",
+    "main.707b0459.js.map": "/monster-cards/static/js/main.707b0459.js.map",
     "787.4a07307c.chunk.js.map": "/monster-cards/static/js/787.4a07307c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.091c65d0.css",
-    "static/js/main.c5e70ea9.js"
+    "static/css/main.12a72a32.css",
+    "static/js/main.707b0459.js"
   ]
 }
