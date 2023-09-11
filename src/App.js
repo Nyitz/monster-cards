@@ -35,7 +35,7 @@ function App() {
   const [defaultKingdom, setDefaultKingdom] = useState('Chunjo');
 
   // Language
-  const [language, setLanguage] = useState('pl');
+  const [language, setLanguage] = useState(navigator.language.slice(0,2));
 
   const getData = async () => {
     await fetch('./data/monsters.json', {headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}})
@@ -69,14 +69,14 @@ function App() {
   }, [monsterData]);
 
   useEffect(() => {
-    console.log(`[INFO] Mission Level set to: ${missionLevel}`);
+    //console.log(`[INFO] Mission Level set to: ${missionLevel}`);
     if (monsterData[`${missionLevel}`] !== undefined) {
       setMonsterList(monsterData[`${missionLevel}`]);
     }
   }, [missionLevel, monsterData]);
 
   useEffect(() => {
-    console.log(`[INFO] Monster set to: ${monster}`);
+    //console.log(`[INFO] Monster set to: ${monster}`);
     let currentMonster = monsterList.find((d) => d.name === monster);
     if (currentMonster) {
       let area = currentMonster.spawns[0];
@@ -99,28 +99,28 @@ function App() {
   }, [monster, defaultKingdom]);
 
   useEffect(() => {
-    console.log(`[INFO] isLoading: ${isLoading}`);
+    //console.log(`[INFO] isLoading: ${isLoading}`);
   }, [isLoading]);
 
   useEffect(() => {
-    console.log(`[INFO] Monster List undefined: ${monsterList === undefined}`);
+    //console.log(`[INFO] Monster List undefined: ${monsterList === undefined}`);
   }, [monsterList]);
 
   useEffect(() => {
-    console.log(`[INFO] All Monsters List undefined: ${allMonstersList === undefined}`);
+    //console.log(`[INFO] All Monsters List undefined: ${allMonstersList === undefined}`);
   }, [allMonstersList]);
 
   useEffect(() => {
-    console.log(`[INFO] Area set to: ${area}`);
+    //console.log(`[INFO] Area set to: ${area}`);
   }, [area]);
 
   useEffect(() => {
-    console.log(`[INFO] Language set to: ${language}`);
+    //console.log(`[INFO] Language set to: ${language}`);
     i18n.changeLanguage(language);
   }, [language]);
 
   useEffect(() => {
-    console.log(`[INFO] Default Kingdom set to: ${defaultKingdom}`);
+    //console.log(`[INFO] Default Kingdom set to: ${defaultKingdom}`);
     if (missionLevel === 'range1' && monster.collection !== 'Dungeon') {
       switch (defaultKingdom) {
         case 'Chunjo': setArea('Joan'); break;
