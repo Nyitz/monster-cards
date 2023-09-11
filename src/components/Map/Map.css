@@ -59,34 +59,7 @@
   z-index: 100;
 }
 
-.Map img.img-joan, .Map img.img-pyungmoo, .Map img.img-yongan {
-  width: 494px;
-  height: 616px;
-}
-
-.Map img.img-bokjung, .Map img.img-bakra, .Map img.img-yayang {
-  width: 616px;
-  height: 616px;
-}
-
-.Map img.img-valley-of-seungryong, .Map img.img-yongbi-desert, .Map img.img-mount-sohan, .Map img.img-hwang-temple, .Map img.img-fireland,
-.Map img.img-grotto-of-exile, .Map img.img-grotto-of-exile-v2, .Map img.img-red-wood, .Map img.img-cape-dragon-fire, .Map img.img-temple-of-the-ochao {
-  width: 616px;
-  height: 616px;
-}
-
-.Map img.img-gautama-cliff {
-  width: 1084px;
-  height: 616px;
-}
-
-.Map img.img-thunder-mountains {
-  width: 412px;
-  height: 616px;
-}
-
-.Map img.img-nephrite-bay {
-  width: 308px;
+.Map img.img-map {
   height: 616px;
 }
 
@@ -143,7 +116,7 @@
 .Map img.img-map {
   min-width: 320px;
   min-height: 320px;
-  max-height: 640px;
+  max-height: 616px;
 }
 
 .Map img#map {
