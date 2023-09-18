@@ -17,7 +17,7 @@ function Details({title, children, monster}) {
             <div id="level-key"> {t('level')} </div> 
             <div id="level-value"> {monster.level} </div>
             <div id="class-key"> {t('rank')} </div> 
-            <div id="class-value"> {monster.rank} </div>
+            <div id="class-value"> {t(monster.rank)} </div>
             <img src={`${process.env.PUBLIC_URL}/assets/card-images/${monster.name}.png`} id='card-image'/>
             <div id="container-monster-image">
               <img src={`${process.env.PUBLIC_URL}/assets/monster-images/${monster.name}.png`} id='monster-image' className={`${monster.element !== "" ? `monster-image-${monster.element.toString().toLowerCase()}` : 'monster-image-element-none'}`}/>
